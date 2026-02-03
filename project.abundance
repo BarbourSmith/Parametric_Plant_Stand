@@ -1653,14 +1653,18 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.1712962962962963,
-          "y": 0.8527777777777777,
+          "x": 0.1865079365079365,
+          "y": 0.8416666666666667,
           "uniqueID": "id-107701",
           "name": "Angle Brace",
           "ioValues": [
             {
               "name": "Height",
               "ioValue": 300
+            },
+            {
+              "name": "Wood_Thickness",
+              "ioValue": 12
             }
           ],
           "topLevel": false,
@@ -1687,8 +1691,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.04431216931216932,
-              "y": 0.35833333333333334,
+              "x": 0.16732804232804233,
+              "y": 0.35555555555555557,
               "uniqueID": "id-107925",
               "name": ".8*H",
               "ioValues": [
@@ -1714,8 +1718,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.11243386243386243,
-              "y": 0.5583333333333333,
+              "x": 0.23875661375661375,
+              "y": 0.4083333333333333,
               "uniqueID": "id-107955",
               "name": "Isosceles-Triangle---Angle",
               "ioValues": [
@@ -1870,21 +1874,21 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.20568783068783067,
-              "y": 0.861111111111111,
+              "x": 0.17063492063492064,
+              "y": 0.8722222222222222,
               "uniqueID": "id-107976",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 50,
+                  "ioValue": 100,
                   "currentEquation": "50"
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.30886243386243384,
-              "y": 0.8638888888888889,
+              "x": 0.2969576719576719,
+              "y": 0.8944444444444445,
               "uniqueID": "id-107979",
               "ioValues": [
                 {
@@ -1897,8 +1901,8 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -30,
-                  "currentEquation": "-30"
+                  "ioValue": -62,
+                  "currentEquation": "-25"
                 },
                 {
                   "name": "zDist",
@@ -1938,6 +1942,86 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.4888888888888889,
+              "uniqueID": "id-107999",
+              "name": "Wood_Thickness",
+              "type": "number"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.16600529100529102,
+              "y": 0.6722222222222223,
+              "uniqueID": "id-108002",
+              "name": "-1*F/2-T",
+              "ioValues": [
+                {
+                  "name": "T",
+                  "ioValue": 12
+                },
+                {
+                  "name": "F",
+                  "ioValue": 100
+                }
+              ],
+              "currentEquation": "-1*F/2-T"
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.5529100529100529,
+              "y": 0.3722222222222222,
+              "uniqueID": "id-108007",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 45,
+                  "currentEquation": "45"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.6476190476190476,
+              "y": 0.37777777777777777,
+              "uniqueID": "id-108010",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 1000,
+                  "currentEquation": "1000"
+                }
+              ]
+            },
+            {
+              "atomType": "Intersection",
+              "x": 0.716931216931217,
+              "y": 0.7027777777777777,
+              "uniqueID": "id-108014",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Constant",
+              "x": 0.036375661375661374,
+              "y": 0.8333333333333334,
+              "uniqueID": "id-108018",
+              "name": "Fillet Diameter",
+              "value": 100
             }
           ],
           "allConnectors": [
@@ -1982,9 +2066,44 @@
               "ap2ID": "id-107989"
             },
             {
-              "ap2Name": "geometry",
+              "ap2Name": "geometry2",
               "ap1ID": "id-107989",
+              "ap2ID": "id-108014"
+            },
+            {
+              "ap2Name": "T",
+              "ap1ID": "id-107999",
+              "ap2ID": "id-108002"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-108002",
+              "ap2ID": "id-107979"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-108007",
+              "ap2ID": "id-108010"
+            },
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-108010",
+              "ap2ID": "id-108014"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-108014",
               "ap2ID": "id-107930"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-108018",
+              "ap2ID": "id-107976"
+            },
+            {
+              "ap2Name": "F",
+              "ap1ID": "id-108018",
+              "ap2ID": "id-108002"
             }
           ],
           "fileTypeVersion": 1
@@ -2142,7 +2261,8 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 120
+              "ioValue": 120,
+              "currentEquation": "360/3"
             }
           ]
         }
@@ -2172,6 +2292,11 @@
           "ap2Name": "T",
           "ap1ID": "id-107661",
           "ap2ID": "id-107776"
+        },
+        {
+          "ap2Name": "Wood_Thickness",
+          "ap1ID": "id-107661",
+          "ap2ID": "id-107701"
         },
         {
           "ap2Name": "geometry",
