@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Wood_Thickness",
-      "ioValue": 10
+      "ioValue": 1020,
+      "currentEquation": "1020"
     },
     {
       "name": "Height",
@@ -61,8 +62,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.11507936507936507,
-          "y": 0.48055555555555557,
+          "x": 0.15013227513227512,
+          "y": 0.4027777777777778,
           "uniqueID": "id-107546",
           "name": "Pot",
           "ioValues": [
@@ -87,21 +88,21 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.1593915343915344,
-              "y": 0.4916666666666667,
+              "x": 0.58994708994709,
+              "y": 0.16111111111111112,
               "uniqueID": "id-107550",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 150,
+                  "ioValue": 130,
                   "currentEquation": "150"
                 }
               ]
             },
             {
               "atomType": "Extrude",
-              "x": 0.2593915343915344,
-              "y": 0.4916666666666667,
+              "x": 0.7414021164021164,
+              "y": 0.3805555555555556,
               "uniqueID": "id-107553",
               "ioValues": [
                 {
@@ -110,28 +111,28 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 100,
+                  "ioValue": 112,
                   "currentEquation": "100"
                 }
               ]
             },
             {
               "atomType": "Circle",
-              "x": 0.1865079365079365,
-              "y": 0.8583333333333334,
+              "x": 0.5231481481481481,
+              "y": 0.8333333333333334,
               "uniqueID": "id-107557",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 130,
+                  "ioValue": 120,
                   "currentEquation": "130"
                 }
               ]
             },
             {
               "atomType": "Extrude",
-              "x": 0.28320105820105823,
-              "y": 0.8027777777777778,
+              "x": 0.6964285714285714,
+              "y": 0.7972222222222223,
               "uniqueID": "id-107560",
               "ioValues": [
                 {
@@ -140,15 +141,15 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 100,
-                  "currentEquation": "100"
+                  "ioValue": 1000,
+                  "currentEquation": "1000"
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.3832010582010582,
-              "y": 0.8027777777777778,
+              "x": 0.8333333333333334,
+              "y": 0.8166666666666667,
               "uniqueID": "id-107564",
               "ioValues": [
                 {
@@ -172,8 +173,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.5588624338624338,
-              "y": 0.5527777777777778,
+              "x": 0.8915343915343915,
+              "y": 0.4888888888888889,
               "uniqueID": "id-107570",
               "ioValues": [
                 {
@@ -193,6 +194,48 @@
               "uniqueID": "id-107670",
               "name": "Pot_Diameter",
               "type": "number"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.23412698412698413,
+              "y": 0.22777777777777777,
+              "uniqueID": "id-107678",
+              "name": "D-30",
+              "ioValues": [
+                {
+                  "name": "D",
+                  "ioValue": 160
+                }
+              ],
+              "currentEquation": "D-30"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.23148148148148145,
+              "y": 0.6694444444444444,
+              "uniqueID": "id-107683",
+              "name": "D-40",
+              "ioValues": [
+                {
+                  "name": "D",
+                  "ioValue": 160
+                }
+              ],
+              "currentEquation": "D-40"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.42658730158730157,
+              "y": 0.5111111111111111,
+              "uniqueID": "id-107688",
+              "name": ".7*D",
+              "ioValues": [
+                {
+                  "name": "D",
+                  "ioValue": 160
+                }
+              ],
+              "currentEquation": ".7*D"
             }
           ],
           "allConnectors": [
@@ -225,14 +268,44 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-107570",
               "ap2ID": "id-107548"
+            },
+            {
+              "ap2Name": "D",
+              "ap1ID": "id-107670",
+              "ap2ID": "id-107678"
+            },
+            {
+              "ap2Name": "D",
+              "ap1ID": "id-107670",
+              "ap2ID": "id-107683"
+            },
+            {
+              "ap2Name": "D",
+              "ap1ID": "id-107670",
+              "ap2ID": "id-107688"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-107678",
+              "ap2ID": "id-107550"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-107683",
+              "ap2ID": "id-107557"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-107688",
+              "ap2ID": "id-107553"
             }
           ],
           "fileTypeVersion": 1
         },
         {
           "atomType": "Molecule",
-          "x": 0.11375661375661376,
-          "y": 0.825,
+          "x": 0.11574074074074073,
+          "y": 0.8055555555555556,
           "uniqueID": "id-107574",
           "name": "Saucer",
           "ioValues": [
@@ -364,8 +437,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.1712962962962963,
-              "y": 0.7333333333333334,
+              "x": 0.17328042328042328,
+              "y": 0.7055555555555556,
               "uniqueID": "id-107673",
               "name": "D-20",
               "ioValues": [
@@ -652,7 +725,7 @@
         },
         {
           "name": "Wood_Thickness",
-          "ioValue": 10
+          "ioValue": 1020
         }
       ],
       "topLevel": false,
@@ -672,7 +745,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "y": 0.32499999999999996,
           "uniqueID": "id-107655",
           "name": "Height",
           "type": "number"
@@ -680,7 +753,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
+          "y": 0.5638888888888889,
           "uniqueID": "id-107658",
           "name": "Pot_Diameter",
           "type": "number"
@@ -688,10 +761,58 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.3384615384615385,
+          "y": 0.913888888888889,
           "uniqueID": "id-107661",
           "name": "Wood_Thickness",
           "type": "number"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.26653439153439157,
+          "y": 0.5638888888888889,
+          "uniqueID": "id-107697",
+          "name": "Legs",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-107699",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.26719576719576715,
+          "y": 0.7916666666666667,
+          "uniqueID": "id-107701",
+          "name": "Angle Brace",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-107703",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [],
@@ -717,9 +838,26 @@
       "y": 0.21111111111111114,
       "uniqueID": "id-107652",
       "name": "Pot_Diameter"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5416666666666666,
+      "y": 0.55,
+      "uniqueID": "id-107693",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-107539",
+      "ap2ID": "id-107693"
+    },
     {
       "ap2Name": "Wood_Thickness",
       "ap1ID": "id-107642",
@@ -739,6 +877,11 @@
       "ap2Name": "Pot_Diameter",
       "ap1ID": "id-107652",
       "ap2ID": "id-107539"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-107693",
+      "ap2ID": "id-107537"
     }
   ],
   "unitsKey": "MM",
