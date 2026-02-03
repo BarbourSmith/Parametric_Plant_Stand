@@ -1,13 +1,747 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-107536",
-    "name": "Parametric_Plant_Stand",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-107536",
+  "name": "Parametric_Plant_Stand",
+  "ioValues": [
+    {
+      "name": "Wood_Thickness",
+      "ioValue": 10
+    },
+    {
+      "name": "Height",
+      "ioValue": 10
+    },
+    {
+      "name": "Pot_Diameter",
+      "ioValue": 160,
+      "currentEquation": "160"
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-107537",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.32076719576719576,
+      "y": 0.23055555555555557,
+      "uniqueID": "id-107539",
+      "name": "Pot and Saucer",
+      "ioValues": [
+        {
+          "name": "Pot_Diameter",
+          "ioValue": 160
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-107541",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.11507936507936507,
+          "y": 0.48055555555555557,
+          "uniqueID": "id-107546",
+          "name": "Pot",
+          "ioValues": [
+            {
+              "name": "Pot_Diameter",
+              "ioValue": 160
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-107548",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.1593915343915344,
+              "y": 0.4916666666666667,
+              "uniqueID": "id-107550",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 150,
+                  "currentEquation": "150"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.2593915343915344,
+              "y": 0.4916666666666667,
+              "uniqueID": "id-107553",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 100,
+                  "currentEquation": "100"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.1865079365079365,
+              "y": 0.8583333333333334,
+              "uniqueID": "id-107557",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 130,
+                  "currentEquation": "130"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.28320105820105823,
+              "y": 0.8027777777777778,
+              "uniqueID": "id-107560",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 100,
+                  "currentEquation": "100"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.3832010582010582,
+              "y": 0.8027777777777778,
+              "uniqueID": "id-107564",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 10,
+                  "currentEquation": "10"
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.5588624338624338,
+              "y": 0.5527777777777778,
+              "uniqueID": "id-107570",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-107670",
+              "name": "Pot_Diameter",
+              "type": "number"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107550",
+              "ap2ID": "id-107553"
+            },
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-107553",
+              "ap2ID": "id-107570"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107557",
+              "ap2ID": "id-107560"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107560",
+              "ap2ID": "id-107564"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-107564",
+              "ap2ID": "id-107570"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-107570",
+              "ap2ID": "id-107548"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.11375661375661376,
+          "y": 0.825,
+          "uniqueID": "id-107574",
+          "name": "Saucer",
+          "ioValues": [
+            {
+              "name": "Pot_Diameter",
+              "ioValue": 160
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-107575",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.42460317460317465,
+              "y": 0.3194444444444444,
+              "uniqueID": "id-107576",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 160,
+                  "currentEquation": "160"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.6084656084656085,
+              "y": 0.28888888888888886,
+              "uniqueID": "id-107577",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 18,
+                  "currentEquation": "18"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.39021164021164023,
+              "y": 0.8416666666666667,
+              "uniqueID": "id-107578",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 140,
+                  "currentEquation": "140"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5396825396825397,
+              "y": 0.8083333333333333,
+              "uniqueID": "id-107579",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 100
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6117724867724867,
+              "y": 0.7916666666666667,
+              "uniqueID": "id-107580",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.7645502645502645,
+              "y": 0.5416666666666666,
+              "uniqueID": "id-107581",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-107667",
+              "name": "Pot_Diameter",
+              "type": "number"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.1712962962962963,
+              "y": 0.7333333333333334,
+              "uniqueID": "id-107673",
+              "name": "D-20",
+              "ioValues": [
+                {
+                  "name": "D",
+                  "ioValue": 160
+                }
+              ],
+              "currentEquation": "D-20"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107576",
+              "ap2ID": "id-107577"
+            },
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-107577",
+              "ap2ID": "id-107581"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107578",
+              "ap2ID": "id-107579"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107579",
+              "ap2ID": "id-107580"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-107580",
+              "ap2ID": "id-107581"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-107581",
+              "ap2ID": "id-107575"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-107667",
+              "ap2ID": "id-107576"
+            },
+            {
+              "ap2Name": "D",
+              "ap1ID": "id-107667",
+              "ap2ID": "id-107673"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-107673",
+              "ap2ID": "id-107578"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.2976190476190476,
+          "y": 0.3861111111111111,
+          "uniqueID": "id-107615",
+          "name": "Above",
+          "ioValues": [
+            {
+              "name": "B",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "A",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-107609",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-107610",
+              "name": "B",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-107611",
+              "name": "A",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Code",
+              "x": 0.4417989417989418,
+              "y": 0.5431754874651811,
+              "uniqueID": "id-107612",
+              "ioValues": [
+                {
+                  "name": "A",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "B",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "codeVersion": 1,
+              "code": "\n      Inputs = [\n       {inputName: \"A\", type: \"geometry\", defaultValue: null},\n        {inputName: \"B\", type: \"geometry\", defaultValue: null}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      let boundsA = await GetBounds(A);\n      let A_minZ = boundsA.min[2];\n\n      let B_maxZ = 0;\n      if(B){\n          let boundsB = await GetBounds(B);\n          console.log(\"Bounding Box B:  \");\n          console.log(boundsB);\n          B_maxZ  = boundsB.max[2];\n      }\n\n     let translationZ = B_maxZ - A_minZ;\n     \n      let movedOutput = await Move(A, 0, 0, translationZ);\n\n      return movedOutput;\n\n      // //We can also create a new shape from scratch\n      // let createdRectangle = replicad.drawRectangle(5,7)\n      // //This is the plane we are going to put our new shape on\n      // const newPlane = new replicad.Plane().pivot(0, 'Y');\n      // //And we extrude the shape to make it 3D\n      // let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      // //For our new geometry we need to define the tags, color, plane, etc\n      // let shape2 = {\n      //     geometry: [createdShape],\n      //     tags: [\"aTag\"],\n      //     color: '#A3CE5B',\n      //     plane: newPlane,\n      //     bom: []\n      // }\n\n      // //Then we can return our created shape in just the same way\n      // //return shape2\n\n      // //If we want to return both shapes at once, we can create an assembly with them\n      // let anAssembly = {\n      //   geometry: [shape1, shape2],\n      //   tags: [\"aNewTag\"],\n      //   color: '#A3CF5B',\n      //   plane: newPlane,\n      //   bom: []\n      // }\n\n      // //And we can return that in the same way\n      // return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n        Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.23875661375661375,
+              "y": 0.7604456824512534,
+              "uniqueID": "id-107613",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 10
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.33796296296296297,
+              "y": 0.7604456824512534,
+              "uniqueID": "id-107614",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 9
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "B",
+              "ap1ID": "id-107610",
+              "ap2ID": "id-107612"
+            },
+            {
+              "ap2Name": "A",
+              "ap1ID": "id-107611",
+              "ap2ID": "id-107612"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-107612",
+              "ap2ID": "id-107609"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-107613",
+              "ap2ID": "id-107614"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-02-03T18:23:39.440Z",
+            "privateRepo": false,
+            "repoName": "Above",
+            "dateCreated": "2025-09-22T22:39:35Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/Above/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "decd9514-fa8b-49ad-b680-2aaf10b00d00",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/Above",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739604",
+            "ranking": 1.8,
+            "searchField": "above barboursmith takes two inputs and moves input a in the z-axis direction so that it ends up above b as defined by their bounding boxes ",
+            "owner": "BarbourSmith",
+            "description": "Takes two inputs and moves input A in the Z-axis direction so that it ends up Above B as defined by their bounding boxes",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.40542328042328046,
+          "y": 0.6333333333333333,
+          "uniqueID": "id-107633",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-107664",
+          "name": "Pot_Diameter",
+          "type": "number"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "A",
+          "ap1ID": "id-107546",
+          "ap2ID": "id-107615"
+        },
+        {
+          "ap2Name": "B",
+          "ap1ID": "id-107574",
+          "ap2ID": "id-107615"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-107574",
+          "ap2ID": "id-107633"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-107615",
+          "ap2ID": "id-107633"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-107633",
+          "ap2ID": "id-107541"
+        },
+        {
+          "ap2Name": "Pot_Diameter",
+          "ap1ID": "id-107664",
+          "ap2ID": "id-107574"
+        },
+        {
+          "ap2Name": "Pot_Diameter",
+          "ap1ID": "id-107664",
+          "ap2ID": "id-107546"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.24074074074074073,
+      "y": 0.6972222222222222,
+      "uniqueID": "id-107638",
+      "name": "Stand",
+      "ioValues": [
+        {
+          "name": "Height",
+          "ioValue": 10
+        },
+        {
+          "name": "Pot_Diameter",
+          "ioValue": 160
+        },
+        {
+          "name": "Wood_Thickness",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-107640",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-107655",
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-107658",
+          "name": "Pot_Diameter",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-107661",
+          "name": "Wood_Thickness",
+          "type": "number"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.4111111111111111,
+      "uniqueID": "id-107642",
+      "name": "Wood_Thickness"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6222222222222222,
+      "uniqueID": "id-107649",
+      "name": "Height"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.21111111111111114,
+      "uniqueID": "id-107652",
+      "name": "Pot_Diameter"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "Wood_Thickness",
+      "ap1ID": "id-107642",
+      "ap2ID": "id-107638"
+    },
+    {
+      "ap2Name": "Height",
+      "ap1ID": "id-107649",
+      "ap2ID": "id-107638"
+    },
+    {
+      "ap2Name": "Pot_Diameter",
+      "ap1ID": "id-107652",
+      "ap2ID": "id-107638"
+    },
+    {
+      "ap2Name": "Pot_Diameter",
+      "ap1ID": "id-107652",
+      "ap2ID": "id-107539"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
