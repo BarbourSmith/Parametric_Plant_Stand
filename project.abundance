@@ -15,8 +15,7 @@
     },
     {
       "name": "Pot_Diameter",
-      "ioValue": 175,
-      "currentEquation": "175"
+      "ioValue": 175
     }
   ],
   "topLevel": true,
