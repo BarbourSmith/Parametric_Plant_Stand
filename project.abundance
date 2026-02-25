@@ -11,8 +11,7 @@
     },
     {
       "name": "Height",
-      "ioValue": 400,
-      "currentEquation": "400"
+      "ioValue": 400
     },
     {
       "name": "Pot_Diameter",
@@ -166,8 +165,7 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         },
         {
           "name": "Part Name",
@@ -325,8 +323,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7493386243386244,
-      "y": 0.7972222222222223,
+      "x": 0.7453703703703703,
+      "y": 0.7944444444444444,
       "uniqueID": "id-108091",
       "name": "Center_XY",
       "ioValues": [
@@ -3004,6 +3002,64 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.6891534391534391,
+      "y": 0.4305555555555555,
+      "uniqueID": "id-108462",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438,
+          "currentEquation": "2438"
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 2,
+            "rotate": 210,
+            "translate": {
+              "x": 78.91145757526441,
+              "y": 219.5102288704577
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 330,
+            "translate": {
+              "x": 243.24968062864136,
+              "y": 215.76022894713142
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 60,
+            "translate": {
+              "x": 174.49344277317854,
+              "y": 669.4746311970705
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -3041,6 +3097,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-108070",
       "ap2ID": "id-108073"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-108070",
+      "ap2ID": "id-108462"
     },
     {
       "ap2Name": "Geometry",
