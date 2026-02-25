@@ -86,8 +86,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6236772486772487,
-      "y": 0.775,
+      "x": 0.6263227513227514,
+      "y": 0.8055555555555556,
       "uniqueID": "id-108073",
       "name": "Cut Layout",
       "ioValues": [
@@ -3005,8 +3005,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6891534391534391,
-      "y": 0.4305555555555555,
+      "x": 0.7023809523809524,
+      "y": 0.45833333333333337,
       "uniqueID": "id-108462",
       "name": "Cut Layout",
       "ioValues": [
@@ -3029,14 +3029,15 @@
         },
         {
           "name": "Orientations",
-          "ioValue": 12
+          "ioValue": 2,
+          "currentEquation": "2"
         }
       ],
       "placements": [
         [
           {
             "id": 0,
-            "rotate": 60,
+            "rotate": 0,
             "translate": {
               "x": 239.6642571485381,
               "y": 86.20312731124665
@@ -3044,7 +3045,7 @@
           },
           {
             "id": 2,
-            "rotate": 300,
+            "rotate": 360,
             "translate": {
               "x": 235.9142566655663,
               "y": 235.9580110337423
