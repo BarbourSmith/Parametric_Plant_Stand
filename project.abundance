@@ -3016,12 +3016,12 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 2438,
-          "currentEquation": "2438"
+          "ioValue": 850
         },
         {
           "name": "Sheet Height",
-          "ioValue": 1219
+          "ioValue": 380,
+          "currentEquation": "380"
         },
         {
           "name": "Part Padding",
@@ -3035,27 +3035,27 @@
       "placements": [
         [
           {
-            "id": 2,
-            "rotate": 210,
-            "translate": {
-              "x": 78.91145757526441,
-              "y": 219.5102288704577
-            }
-          },
-          {
             "id": 0,
-            "rotate": 330,
+            "rotate": 0,
             "translate": {
-              "x": 243.24968062864136,
-              "y": 215.76022894713142
+              "x": 0,
+              "y": 0
             }
           },
           {
             "id": 1,
-            "rotate": 60,
+            "rotate": 0,
             "translate": {
-              "x": 174.49344277317854,
-              "y": 669.4746311970705
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
             }
           }
         ]
