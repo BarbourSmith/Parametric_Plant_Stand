@@ -55,8 +55,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5443121693121693,
-      "y": 0.5555555555555556,
+      "x": 0.49074074074074076,
+      "y": 0.5277777777777778,
       "uniqueID": "id-107693",
       "ioValues": [
         {
@@ -71,8 +71,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.4603174603174603,
-      "y": 0.7972222222222223,
+      "x": 0.5257936507936508,
+      "y": 0.8305555555555555,
       "uniqueID": "id-108070",
       "name": "Extract Tag",
       "ioValues": [
@@ -3002,49 +3002,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.7023809523809524,
-      "y": 0.45833333333333337,
-      "uniqueID": "id-108462",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 850
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 380,
-          "currentEquation": "380"
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 2,
-          "currentEquation": "2"
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 1,
-            "rotate": 0,
-            "translate": {
-              "x": 227.7,
-              "y": 78.5333333
-            }
-          }
-        ]
-      ]
     }
   ],
   "allConnectors": [
@@ -3082,11 +3039,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-108070",
       "ap2ID": "id-108073"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-108070",
-      "ap2ID": "id-108462"
     },
     {
       "ap2Name": "Geometry",
