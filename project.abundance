@@ -11,8 +11,7 @@
     },
     {
       "name": "Height",
-      "ioValue": 600,
-      "currentEquation": "600"
+      "ioValue": 600
     },
     {
       "name": "Pot_Diameter",
@@ -3003,6 +3002,186 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.5826719576719577,
+      "y": 0.3111111111111111,
+      "uniqueID": "id-108462",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "One Plastic",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6746031746031745,
+      "y": 0.375,
+      "uniqueID": "id-108465",
+      "name": "Printed Part",
+      "ioValues": [
+        {
+          "name": "input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-108467",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-108469",
+          "name": "input",
+          "type": "geometry"
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.27711640211640215,
+          "y": 0.4166666666666667,
+          "uniqueID": "id-108472",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "One Plastic",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.3161375661375661,
+          "y": 0.8083333333333333,
+          "uniqueID": "id-108475",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 100,
+              "currentEquation": "100"
+            },
+            {
+              "name": "y length",
+              "ioValue": 100,
+              "currentEquation": "100"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.41534391534391535,
+          "y": 0.7805555555555554,
+          "uniqueID": "id-108479",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 60,
+              "currentEquation": "60"
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.5403439153439153,
+          "y": 0.5138888888888888,
+          "uniqueID": "id-108483",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.6355820105820106,
+          "y": 0.8333333333333334,
+          "uniqueID": "id-108487",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Printed Part",
+              "currentEquation": "Printed Part"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Printed Part"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-108469",
+          "ap2ID": "id-108472"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-108472",
+          "ap2ID": "id-108483"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-108475",
+          "ap2ID": "id-108479"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-108479",
+          "ap2ID": "id-108483"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-108483",
+          "ap2ID": "id-108467"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-108483",
+          "ap2ID": "id-108487"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -3035,6 +3214,16 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-107693",
       "ap2ID": "id-107537"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-107693",
+      "ap2ID": "id-108462"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-107693",
+      "ap2ID": "id-108465"
     },
     {
       "ap2Name": "geometry",
