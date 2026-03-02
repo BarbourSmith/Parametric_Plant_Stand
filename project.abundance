@@ -177,6 +177,21 @@
       "sortDirection": "Top"
     },
     {
+      "atomType": "ExtractTag",
+      "x": 0.5826719576719577,
+      "y": 0.3111111111111111,
+      "uniqueID": "id-108462",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "One Plastic",
+      "tagIndex": 0
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.38425925925925924,
       "y": 0.4,
@@ -472,6 +487,168 @@
         "isLocal": false
       },
       "unitsKey": "MM",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6832010582010583,
+      "y": 0.3833333333333333,
+      "uniqueID": "id-108465",
+      "name": "Printed Part",
+      "ioValues": [
+        {
+          "name": "input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-108467",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-108469",
+          "name": "input",
+          "type": "geometry"
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.27711640211640215,
+          "y": 0.4166666666666667,
+          "uniqueID": "id-108472",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "One Plastic",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.3161375661375661,
+          "y": 0.8083333333333333,
+          "uniqueID": "id-108475",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 100
+            },
+            {
+              "name": "y length",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.41534391534391535,
+          "y": 0.7805555555555554,
+          "uniqueID": "id-108479",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 60
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.5403439153439153,
+          "y": 0.5138888888888888,
+          "uniqueID": "id-108483",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.6355820105820106,
+          "y": 0.8333333333333334,
+          "uniqueID": "id-108487",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Printed Part",
+              "currentEquation": "Printed Part"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Printed Part"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-108469",
+          "ap2ID": "id-108472"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-108472",
+          "ap2ID": "id-108483"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-108475",
+          "ap2ID": "id-108479"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-108479",
+          "ap2ID": "id-108483"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-108483",
+          "ap2ID": "id-108467"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-108483",
+          "ap2ID": "id-108487"
+        }
+      ],
       "fileTypeVersion": 1
     },
     {
@@ -1178,8 +1355,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2328042328042328,
-      "y": 0.6277777777777778,
+      "x": 0.2374338624338624,
+      "y": 0.6361111111111112,
       "uniqueID": "id-107638",
       "name": "Stand",
       "ioValues": [
@@ -1348,8 +1525,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7486772486772487,
-          "y": 0.48611111111111116,
+          "x": 0.7936507936507936,
+          "y": 0.46388888888888885,
           "uniqueID": "id-107799",
           "ioValues": [
             {
@@ -1397,8 +1574,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.7546296296296297,
-          "y": 0.7416666666666667,
+          "x": 0.8293650793650793,
+          "y": 0.7444444444444444,
           "uniqueID": "id-108025",
           "name": "Extract Tag",
           "ioValues": [
@@ -1412,8 +1589,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.2599206349206349,
-          "y": 0.7166666666666667,
+          "x": 0.2612433862433862,
+          "y": 0.7138888888888889,
           "uniqueID": "id-108028",
           "ioValues": [
             {
@@ -1486,8 +1663,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6256613756613757,
-          "y": 0.6833333333333333,
+          "x": 0.6263227513227514,
+          "y": 0.6805555555555555,
           "uniqueID": "id-108051",
           "ioValues": [
             {
@@ -1506,8 +1683,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.5634920634920635,
-          "y": 0.8805555555555555,
+          "x": 0.5687830687830687,
+          "y": 0.9083333333333333,
           "uniqueID": "id-108057",
           "name": "One Plastic",
           "ioValues": [
@@ -1522,8 +1699,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.1746031746031746,
-          "y": 0.2138888888888889,
+          "x": 0.17261904761904762,
+          "y": 0.2638888888888889,
           "uniqueID": "id-107697",
           "name": "Legs",
           "ioValues": [
@@ -2467,8 +2644,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.2969576719576719,
-              "y": 0.8944444444444445,
+              "x": 0.30158730158730157,
+              "y": 0.8833333333333333,
               "uniqueID": "id-107979",
               "ioValues": [
                 {
@@ -2507,8 +2684,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.5945767195767195,
-              "y": 0.7638888888888888,
+              "x": 0.6018518518518519,
+              "y": 0.7694444444444444,
               "uniqueID": "id-107989",
               "ioValues": [
                 {
@@ -2645,8 +2822,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.23875661375661375,
-              "y": 0.4083333333333333,
+              "x": 0.28968253968253965,
+              "y": 0.3805555555555556,
               "uniqueID": "id-107955",
               "name": "Isosceles-Triangle---Angle",
               "ioValues": [
@@ -2661,7 +2838,8 @@
                 },
                 {
                   "name": "Thickness",
-                  "ioValue": 570
+                  "ioValue": 30,
+                  "currentEquation": "30"
                 }
               ],
               "topLevel": false,
@@ -2690,7 +2868,7 @@
                     },
                     {
                       "name": "thickness",
-                      "ioValue": 570
+                      "ioValue": 30
                     },
                     {
                       "name": "angle",
@@ -2781,11 +2959,6 @@
               "ap2ID": "id-107925"
             },
             {
-              "ap2Name": "Thickness",
-              "ap1ID": "id-107925",
-              "ap2ID": "id-107955"
-            },
-            {
               "ap2Name": "geometry",
               "ap1ID": "id-107930",
               "ap2ID": "id-108022"
@@ -2872,6 +3045,60 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6865079365079365,
+          "y": 0.8861111111111112,
+          "uniqueID": "id-108861",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 540
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.10052910052910052,
+          "y": 0.9388888888888888,
+          "uniqueID": "id-108867",
+          "name": "H-60",
+          "ioValues": [
+            {
+              "name": "H",
+              "ioValue": 600
+            }
+          ],
+          "currentEquation": "H-60"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7334656084656085,
+          "y": 0.6583333333333333,
+          "uniqueID": "id-108872",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2884,6 +3111,11 @@
           "ap2Name": "Height",
           "ap1ID": "id-107655",
           "ap2ID": "id-107701"
+        },
+        {
+          "ap2Name": "H",
+          "ap1ID": "id-107655",
+          "ap2ID": "id-108867"
         },
         {
           "ap2Name": "Pot_Diameter",
@@ -2981,9 +3213,14 @@
           "ap2ID": "id-108051"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
           "ap1ID": "id-108051",
-          "ap2ID": "id-107799"
+          "ap2ID": "id-108861"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-108051",
+          "ap2ID": "id-108872"
         },
         {
           "ap2Name": "Shape 2",
@@ -2999,189 +3236,69 @@
           "ap2Name": "geometry",
           "ap1ID": "id-107701",
           "ap2ID": "id-108028"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-108861",
+          "ap2ID": "id-108872"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-108867",
+          "ap2ID": "id-108861"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-108872",
+          "ap2ID": "id-107799"
         }
       ],
       "fileTypeVersion": 1
     },
     {
-      "atomType": "ExtractTag",
-      "x": 0.5826719576719577,
-      "y": 0.3111111111111111,
-      "uniqueID": "id-108462",
-      "name": "Extract Tag",
+      "atomType": "Export",
+      "x": 0.8022486772486772,
+      "y": 0.30277777777777776,
+      "uniqueID": "id-108877",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Printed Brace",
+          "currentEquation": "Printed Brace"
         }
       ],
-      "tag": "One Plastic",
-      "tagIndex": 0
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Printed Brace"
     },
     {
-      "atomType": "Molecule",
-      "x": 0.6746031746031745,
-      "y": 0.375,
-      "uniqueID": "id-108465",
-      "name": "Printed Part",
+      "atomType": "Readme",
+      "x": 0.371031746031746,
+      "y": 0.7916666666666667,
+      "uniqueID": "id-108882",
+      "name": "README",
       "ioValues": [
         {
-          "name": "input",
+          "name": "value",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-108467",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
-          "uniqueID": "id-108469",
-          "name": "input",
-          "type": "geometry"
-        },
-        {
-          "atomType": "ExtractTag",
-          "x": 0.27711640211640215,
-          "y": 0.4166666666666667,
-          "uniqueID": "id-108472",
-          "name": "Extract Tag",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "tag": "One Plastic",
-          "tagIndex": 0
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.3161375661375661,
-          "y": 0.8083333333333333,
-          "uniqueID": "id-108475",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 100,
-              "currentEquation": "100"
-            },
-            {
-              "name": "y length",
-              "ioValue": 100,
-              "currentEquation": "100"
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.41534391534391535,
-          "y": 0.7805555555555554,
-          "uniqueID": "id-108479",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 60,
-              "currentEquation": "60"
-            }
-          ]
-        },
-        {
-          "atomType": "Intersection",
-          "x": 0.5403439153439153,
-          "y": 0.5138888888888888,
-          "uniqueID": "id-108483",
-          "ioValues": [
-            {
-              "name": "geometry1",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "geometry2",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Export",
-          "x": 0.6355820105820106,
-          "y": 0.8333333333333334,
-          "uniqueID": "id-108487",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STL",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "Printed Part",
-              "currentEquation": "Printed Part"
-            }
-          ],
-          "type": null,
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "Printed Part"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-108469",
-          "ap2ID": "id-108472"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-108472",
-          "ap2ID": "id-108483"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-108475",
-          "ap2ID": "id-108479"
-        },
-        {
-          "ap2Name": "geometry1",
-          "ap1ID": "id-108479",
-          "ap2ID": "id-108483"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-108483",
-          "ap2ID": "id-108467"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-108483",
-          "ap2ID": "id-108487"
-        }
-      ],
-      "fileTypeVersion": 1
+      "readMeText": "You will need 6 of the printed brace parts to make a full stand",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -3244,6 +3361,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-108091",
       "ap2ID": "id-108111"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-108465",
+      "ap2ID": "id-108877"
     },
     {
       "ap2Name": "A",

@@ -6,5 +6,7 @@
 
 
 
- 
+ You will need 6 of the printed brace parts to make a full stand
+
+
 
