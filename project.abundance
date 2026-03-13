@@ -775,54 +775,6 @@
           ],
           "text": "Hello",
           "color": "#F3EFEF"
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.18452380952380953,
-          "y": 0.7361111111111112,
-          "uniqueID": "id-109693",
-          "name": "Github Molecule",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-109695",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            }
-          ],
-          "allConnectors": [],
-          "fileTypeVersion": 1
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.4953703703703704,
-          "y": 0.4972222222222222,
-          "uniqueID": "id-110103",
-          "name": "Github Molecule",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-110105",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            }
-          ],
-          "allConnectors": [],
-          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
