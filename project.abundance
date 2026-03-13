@@ -192,6 +192,51 @@
       "tagIndex": 0
     },
     {
+      "atomType": "Export",
+      "x": 0.8022486772486772,
+      "y": 0.30277777777777776,
+      "uniqueID": "id-108877",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Printed Brace",
+          "currentEquation": "Printed Brace"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Printed Brace"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.371031746031746,
+      "y": 0.7916666666666667,
+      "uniqueID": "id-108882",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "You will need 6 of the printed brace parts to make a full stand",
+      "global": true
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.38425925925925924,
       "y": 0.4,
@@ -1698,6 +1743,60 @@
           ]
         },
         {
+          "atomType": "Move",
+          "x": 0.6865079365079365,
+          "y": 0.8861111111111112,
+          "uniqueID": "id-108861",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 540
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.10052910052910052,
+          "y": 0.9388888888888888,
+          "uniqueID": "id-108867",
+          "name": "H-60",
+          "ioValues": [
+            {
+              "name": "H",
+              "ioValue": 600
+            }
+          ],
+          "currentEquation": "H-60"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7334656084656085,
+          "y": 0.6583333333333333,
+          "uniqueID": "id-108872",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
           "atomType": "Molecule",
           "x": 0.17261904761904762,
           "y": 0.2638888888888889,
@@ -2585,12 +2684,6 @@
               "y": 0.3416666666666667,
               "uniqueID": "id-107925",
               "name": "H-30",
-              "ioValues": [
-                {
-                  "name": "H",
-                  "ioValue": 600
-                }
-              ],
               "currentEquation": "H-30"
             },
             {
@@ -2838,8 +2931,7 @@
                 },
                 {
                   "name": "Thickness",
-                  "ioValue": 30,
-                  "currentEquation": "30"
+                  "ioValue": 30
                 }
               ],
               "topLevel": false,
@@ -3045,60 +3137,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Move",
-          "x": 0.6865079365079365,
-          "y": 0.8861111111111112,
-          "uniqueID": "id-108861",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 540
-            }
-          ]
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.10052910052910052,
-          "y": 0.9388888888888888,
-          "uniqueID": "id-108867",
-          "name": "H-60",
-          "ioValues": [
-            {
-              "name": "H",
-              "ioValue": 600
-            }
-          ],
-          "currentEquation": "H-60"
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.7334656084656085,
-          "y": 0.6583333333333333,
-          "uniqueID": "id-108872",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -3228,16 +3266,6 @@
           "ap2ID": "id-108051"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-107697",
-          "ap2ID": "id-107770"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-107701",
-          "ap2ID": "id-108028"
-        },
-        {
           "ap2Name": "Shape 1",
           "ap1ID": "id-108861",
           "ap2ID": "id-108872"
@@ -3251,54 +3279,109 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-108872",
           "ap2ID": "id-107799"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-107697",
+          "ap2ID": "id-107770"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-107701",
+          "ap2ID": "id-108028"
         }
       ],
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Export",
-      "x": 0.8022486772486772,
-      "y": 0.30277777777777776,
-      "uniqueID": "id-108877",
+      "atomType": "Molecule",
+      "x": 0.7215608465608465,
+      "y": 0.5888888888888889,
+      "uniqueID": "id-109279",
+      "name": "Add Label",
       "ioValues": [
         {
-          "name": "geometry",
+          "name": "input",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Printed Brace",
-          "currentEquation": "Printed Brace"
+          "name": "Height",
+          "ioValue": 600
         }
       ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Printed Brace"
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.371031746031746,
-      "y": 0.7916666666666667,
-      "uniqueID": "id-108882",
-      "name": "README",
-      "ioValues": [
+      "topLevel": false,
+      "allAtoms": [
         {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-109281",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-109283",
+          "name": "input",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-109286",
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "atomType": "Label",
+          "x": 0.38425925925925924,
+          "y": 0.4972222222222222,
+          "uniqueID": "id-109289",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "text",
+              "ioValue": "Hello",
+              "currentEquation": "Hello"
+            },
+            {
+              "name": "color",
+              "ioValue": "#dd863b",
+              "currentEquation": "#dd863b"
+            }
+          ],
+          "start": [
+            0,
+            0,
+            0
+          ],
+          "end": [
+            100,
+            100,
+            100
+          ],
+          "text": "Hello",
+          "color": "#484848"
         }
       ],
-      "readMeText": "You will need 6 of the printed brace parts to make a full stand",
-      "global": true
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-109283",
+          "ap2ID": "id-109289"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -3311,6 +3394,11 @@
       "ap2Name": "Height",
       "ap1ID": "id-107649",
       "ap2ID": "id-107638"
+    },
+    {
+      "ap2Name": "Height",
+      "ap1ID": "id-107649",
+      "ap2ID": "id-109279"
     },
     {
       "ap2Name": "Pot_Diameter",
@@ -3341,6 +3429,11 @@
       "ap2Name": "input",
       "ap1ID": "id-107693",
       "ap2ID": "id-108465"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-107693",
+      "ap2ID": "id-109279"
     },
     {
       "ap2Name": "geometry",
