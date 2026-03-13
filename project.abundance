@@ -698,8 +698,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7222222222222222,
-      "y": 0.6055555555555555,
+      "x": 0.7275132275132276,
+      "y": 0.5777777777777777,
       "uniqueID": "id-109279",
       "name": "Add Label",
       "ioValues": [
@@ -744,8 +744,8 @@
         },
         {
           "atomType": "Label",
-          "x": 0.4451058201058201,
-          "y": 0.5166666666666666,
+          "x": 0.4477513227513228,
+          "y": 0.44999999999999996,
           "uniqueID": "id-109289",
           "ioValues": [
             {
@@ -754,7 +754,7 @@
             },
             {
               "name": "text",
-              "ioValue": 600,
+              "ioValue": "600mm",
               "currentEquation": "Height"
             },
             {
@@ -773,8 +773,8 @@
             0,
             600
           ],
-          "text": 600,
-          "color": "#F3EFEF"
+          "text": "600mm",
+          "color": "#484848"
         },
         {
           "atomType": "GitHubMolecule",
@@ -911,6 +911,159 @@
           },
           "unitsKey": "Unitless",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2916666666666667,
+          "y": 0.4972222222222222,
+          "uniqueID": "id-110124",
+          "name": "x + \"mm\"",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 600
+            }
+          ],
+          "currentEquation": "x + \"mm\""
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.39550264550264547,
+          "y": 0.8527777777777777,
+          "uniqueID": "id-110139",
+          "name": "Point",
+          "ioValues": [
+            {
+              "name": "X",
+              "ioValue": 200,
+              "currentEquation": "200"
+            },
+            {
+              "name": "Y",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "Z",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-110133",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-110134",
+              "name": "X"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-110135",
+              "name": "Y"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
+              "uniqueID": "id-110136",
+              "name": "Z"
+            },
+            {
+              "atomType": "Code",
+              "x": 0.5235109717868338,
+              "y": 0.41566265060240964,
+              "uniqueID": "id-110137",
+              "ioValues": [
+                {
+                  "name": "X",
+                  "ioValue": 200
+                },
+                {
+                  "name": "Y",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Z",
+                  "ioValue": 0
+                }
+              ],
+              "codeVersion": 1,
+              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"X\", type: \"number\", defaultValue: 0 },\n  { inputName: \"Y\", type: \"number\", defaultValue: 0 },\n  { inputName: \"Z\", type: \"number\", defaultValue: 0 }\n];\n\nconsole.log([X,Y,Z])\nreturn [X,Y,Z];\n"
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.7089947089947091,
+              "y": 0.7333333333333334,
+              "uniqueID": "id-110138",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 10
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "X",
+              "ap1ID": "id-110134",
+              "ap2ID": "id-110137"
+            },
+            {
+              "ap2Name": "Y",
+              "ap1ID": "id-110135",
+              "ap2ID": "id-110137"
+            },
+            {
+              "ap2Name": "Z",
+              "ap1ID": "id-110136",
+              "ap2ID": "id-110137"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-110137",
+              "ap2ID": "id-110133"
+            }
+          ],
+          "parentRepo": {
+            "privateRepo": false,
+            "repoName": "Point",
+            "dateCreated": "2026-03-13T21:45:15Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/Point/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-282",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/Point",
+            "topics": [],
+            "parentRepo": "alzatin/Point",
+            "forks": 0,
+            "dateModified": "739688",
+            "ranking": 0,
+            "searchField": "point barboursmith returns a point as an array to use in other molecules [x,y,z] ",
+            "owner": "BarbourSmith",
+            "description": "Returns a point as an array to use in other molecules [x,y,z]",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Point/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Point/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -925,6 +1078,11 @@
           "ap2ID": "id-109704"
         },
         {
+          "ap2Name": "x",
+          "ap1ID": "id-109286",
+          "ap2ID": "id-110124"
+        },
+        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-109289",
           "ap2ID": "id-109281"
@@ -932,6 +1090,16 @@
         {
           "ap2Name": "endPosition",
           "ap1ID": "id-109704",
+          "ap2ID": "id-109289"
+        },
+        {
+          "ap2Name": "text",
+          "ap1ID": "id-110124",
+          "ap2ID": "id-109289"
+        },
+        {
+          "ap2Name": "startPosition",
+          "ap1ID": "id-110139",
           "ap2ID": "id-109289"
         }
       ],
