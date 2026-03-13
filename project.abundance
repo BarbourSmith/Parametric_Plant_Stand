@@ -744,8 +744,8 @@
         },
         {
           "atomType": "Label",
-          "x": 0.4365079365079365,
-          "y": 0.47500000000000003,
+          "x": 0.4451058201058201,
+          "y": 0.5166666666666666,
           "uniqueID": "id-109289",
           "ioValues": [
             {
@@ -754,8 +754,8 @@
             },
             {
               "name": "text",
-              "ioValue": "Hello",
-              "currentEquation": "Hello"
+              "ioValue": 600,
+              "currentEquation": "Height"
             },
             {
               "name": "color",
@@ -773,25 +773,23 @@
             0,
             600
           ],
-          "text": "Hello",
+          "text": 600,
           "color": "#F3EFEF"
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.23677248677248677,
-          "y": 0.7416666666666667,
+          "x": 0.23809523809523808,
+          "y": 0.663888888888889,
           "uniqueID": "id-109704",
           "name": "Point",
           "ioValues": [
             {
               "name": "X",
-              "ioValue": 200,
-              "currentEquation": "200"
+              "ioValue": 200
             },
             {
               "name": "Y",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "Z",
