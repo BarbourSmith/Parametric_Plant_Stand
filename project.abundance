@@ -758,23 +758,41 @@
               "currentEquation": "Height"
             },
             {
+              "name": "startPosition",
+              "ioValue": [
+                200,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "endPosition",
+              "ioValue": [
+                200,
+                0,
+                600
+              ]
+            },
+            {
               "name": "color",
               "ioValue": "#dd863b",
               "currentEquation": "#dd863b"
             }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2916666666666667,
+          "y": 0.4972222222222222,
+          "uniqueID": "id-110124",
+          "name": "x + \"mm\"",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 600
+            }
           ],
-          "start": [
-            200,
-            0,
-            0
-          ],
-          "end": [
-            200,
-            0,
-            600
-          ],
-          "text": "600mm",
-          "color": "#484848"
+          "currentEquation": "x + \"mm\""
         },
         {
           "atomType": "GitHubMolecule",
@@ -913,20 +931,6 @@
           "fileTypeVersion": 1
         },
         {
-          "atomType": "Equation",
-          "x": 0.2916666666666667,
-          "y": 0.4972222222222222,
-          "uniqueID": "id-110124",
-          "name": "x + \"mm\"",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 600
-            }
-          ],
-          "currentEquation": "x + \"mm\""
-        },
-        {
           "atomType": "GitHubMolecule",
           "x": 0.39550264550264547,
           "y": 0.8527777777777777,
@@ -935,18 +939,15 @@
           "ioValues": [
             {
               "name": "X",
-              "ioValue": 200,
-              "currentEquation": "200"
+              "ioValue": 200
             },
             {
               "name": "Y",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "Z",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -1088,13 +1089,13 @@
           "ap2ID": "id-109281"
         },
         {
-          "ap2Name": "endPosition",
-          "ap1ID": "id-109704",
+          "ap2Name": "text",
+          "ap1ID": "id-110124",
           "ap2ID": "id-109289"
         },
         {
-          "ap2Name": "text",
-          "ap1ID": "id-110124",
+          "ap2Name": "endPosition",
+          "ap1ID": "id-109704",
           "ap2ID": "id-109289"
         },
         {
@@ -3093,6 +3094,12 @@
               "y": 0.3416666666666667,
               "uniqueID": "id-107925",
               "name": "H-30",
+              "ioValues": [
+                {
+                  "name": "H",
+                  "ioValue": 600
+                }
+              ],
               "currentEquation": "H-30"
             },
             {

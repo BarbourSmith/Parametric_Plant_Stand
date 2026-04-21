@@ -4,6 +4,13 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Wood_Thickness** (number)
+- **Height** (number)
+- **Pot_Diameter** (number)
+
+
 
 
  You will need 6 of the printed brace parts to make a full stand
