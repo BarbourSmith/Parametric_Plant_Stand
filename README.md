@@ -17,11 +17,5 @@
 
 **Value:** __GEOMETRY_INPUT__
 
-Readme text here 
-
-![readme](/readmeid-111344.svg?v=lf5qyc)
-
-
-
 
 
