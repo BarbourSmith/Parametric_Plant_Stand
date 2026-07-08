@@ -15,9 +15,9 @@
 
  You will need 6 of the printed brace parts to make a full stand
 
-**Value:** __GEOMETRY_INPUT__
+__GEOMETRY_INPUT__
 
-Readme text here 
+ 
 
 ![readme](/readmeid-111344.svg?v=lf5qyc)
 
