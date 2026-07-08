@@ -71,8 +71,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.47949735449735453,
-      "y": 0.8022284122562675,
+      "x": 0.4629629629629629,
+      "y": 0.7493036211699164,
       "uniqueID": "id-108070",
       "name": "Extract Tag",
       "ioValues": [
@@ -166,8 +166,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.371031746031746,
-      "y": 0.7916666666666667,
+      "x": 0.33730158730158727,
+      "y": 0.7715877437325905,
       "uniqueID": "id-108882",
       "name": "README",
       "ioValues": [
@@ -181,8 +181,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.5740740740740741,
-      "y": 0.8969359331476323,
+      "x": 0.544973544973545,
+      "y": 0.8885793871866295,
       "uniqueID": "id-111344",
       "name": "README",
       "ioValues": [
@@ -191,7 +191,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Readme text here",
+      "readMeText": "",
       "global": true
     },
     {
