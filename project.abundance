@@ -11,7 +11,8 @@
     },
     {
       "name": "Height",
-      "ioValue": 600
+      "ioValue": 400,
+      "currentEquation": "400"
     },
     {
       "name": "Pot_Diameter",
@@ -193,6 +194,88 @@
       ],
       "readMeText": "",
       "global": true
+    },
+    {
+      "atomType": "CutOrient",
+      "x": 0.6018518518518519,
+      "y": 0.6657381615598886,
+      "uniqueID": "id-112076",
+      "name": "Cut Orient",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "orientations": [
+        {
+          "downwardFaceIndex": 20
+        },
+        {
+          "downwardFaceIndex": 20
+        },
+        {
+          "downwardFaceIndex": 20
+        }
+      ],
+      "orientationsForHashed": "58e47074"
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.7242063492063492,
+      "y": 0.8133704735376045,
+      "uniqueID": "id-112079",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 60,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 120,
+            "translate": {
+              "x": 500,
+              "y": 0
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 90,
+            "translate": {
+              "x": 100,
+              "y": 100
+            }
+          }
+        ]
+      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -656,8 +739,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7275132275132276,
-      "y": 0.5777777777777777,
+      "x": 0.7678571428571428,
+      "y": 0.5571030640668524,
       "uniqueID": "id-109279",
       "name": "Add Label",
       "ioValues": [
@@ -667,7 +750,7 @@
         },
         {
           "name": "Height",
-          "ioValue": 600
+          "ioValue": 400
         }
       ],
       "topLevel": false,
@@ -712,7 +795,7 @@
             },
             {
               "name": "text",
-              "ioValue": "600mm",
+              "ioValue": "400mm",
               "currentEquation": "Height"
             },
             {
@@ -728,7 +811,7 @@
               "ioValue": [
                 200,
                 0,
-                600
+                400
               ]
             },
             {
@@ -751,7 +834,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 600
+              "ioValue": 400
             }
           ],
           "currentEquation": "x + \"mm\""
@@ -773,7 +856,7 @@
             },
             {
               "name": "Z",
-              "ioValue": 600
+              "ioValue": 400
             }
           ],
           "topLevel": false,
@@ -827,7 +910,7 @@
                 },
                 {
                   "name": "Z",
-                  "ioValue": 600
+                  "ioValue": 400
                 }
               ],
               "interpreterVersion": 0,
@@ -1779,7 +1862,7 @@
       "ioValues": [
         {
           "name": "Height",
-          "ioValue": 600
+          "ioValue": 400
         },
         {
           "name": "Pot_Diameter",
@@ -2134,7 +2217,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 540
+              "ioValue": 340
             }
           ]
         },
@@ -2147,7 +2230,7 @@
           "ioValues": [
             {
               "name": "H",
-              "ioValue": 600
+              "ioValue": 400
             }
           ],
           "currentEquation": "H-60"
@@ -2185,7 +2268,7 @@
             },
             {
               "name": "Height",
-              "ioValue": 600
+              "ioValue": 400
             }
           ],
           "topLevel": false,
@@ -2377,7 +2460,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 600
+                  "ioValue": 400
                 },
                 {
                   "name": "yDist",
@@ -2438,7 +2521,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-move-circle-15-15-15-0-600-0-0",
+                    "geometry": "move-move-circle-15-15-15-0-400-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2477,7 +2560,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-600-0-0-50",
+                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-400-0-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2535,7 +2618,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-move-circle-15-15-15-0-600-0-0-move-move-move-circle-15-15-15-0-600-0-0-0-87.5-0-50",
+                    "geometry": "shrinkWrap-fuse-move-move-circle-15-15-15-0-400-0-0-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2564,7 +2647,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-move-move-circle-15-15-15-0-600-0-0-0-87.5-0-move-move-move-move-circle-15-15-15-0-600-0-0-0-87.5-0-15-0-0-50",
+                    "geometry": "shrinkWrap-fuse-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-move-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-15-0-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2639,7 +2722,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-move-move-circle-15-15-15-0-600-0-0-0-87.5-0",
+                    "geometry": "move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2666,7 +2749,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-move-circle-15-15-15-0-600-0-0",
+                    "geometry": "move-move-circle-15-15-15-0-400-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2815,7 +2898,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-move-move-move-circle-15-15-15-0-600-0-0-0-87.5-0-15-0-0",
+                    "geometry": "move-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-15-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2842,7 +2925,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-move-move-circle-15-15-15-0-600-0-0-0-87.5-0",
+                    "geometry": "move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -3021,7 +3104,7 @@
           "ioValues": [
             {
               "name": "Height",
-              "ioValue": 600
+              "ioValue": 400
             },
             {
               "name": "Wood_Thickness",
@@ -3059,7 +3142,7 @@
               "ioValues": [
                 {
                   "name": "H",
-                  "ioValue": 600
+                  "ioValue": 400
                 }
               ],
               "currentEquation": "H-30"
@@ -3670,88 +3753,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "CutOrient",
-      "x": 0.6018518518518519,
-      "y": 0.6657381615598886,
-      "uniqueID": "id-112076",
-      "name": "Cut Orient",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "orientations": [
-        {
-          "downwardFaceIndex": 20
-        },
-        {
-          "downwardFaceIndex": 20
-        },
-        {
-          "downwardFaceIndex": 20
-        }
-      ],
-      "orientationsForHashed": "39c6374c"
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.7242063492063492,
-      "y": 0.8133704735376045,
-      "uniqueID": "id-112079",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 60,
-            "translate": {
-              "x": 0,
-              "y": 0
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 120,
-            "translate": {
-              "x": 500,
-              "y": 0
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 90,
-            "translate": {
-              "x": 100,
-              "y": 100
-            }
-          }
-        ]
-      ]
     }
   ],
   "allConnectors": [
@@ -3786,11 +3787,6 @@
       "ap2ID": "id-108070"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-107693",
-      "ap2ID": "id-107537"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-107693",
       "ap2ID": "id-108462"
@@ -3816,6 +3812,16 @@
       "ap2ID": "id-112076"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-112076",
+      "ap2ID": "id-112079"
+    },
+    {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-112079",
+      "ap2ID": "id-108091"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-107816",
       "ap2ID": "id-107693"
@@ -3831,6 +3837,11 @@
       "ap2ID": "id-108877"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-109279",
+      "ap2ID": "id-107537"
+    },
+    {
       "ap2Name": "A",
       "ap1ID": "id-107539",
       "ap2ID": "id-107816"
@@ -3844,16 +3855,6 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-107638",
       "ap2ID": "id-107693"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-112076",
-      "ap2ID": "id-112079"
-    },
-    {
-      "ap2Name": "Geometry",
-      "ap1ID": "id-112079",
-      "ap2ID": "id-108091"
     }
   ],
   "unitsKey": "MM",
