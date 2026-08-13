@@ -11,8 +11,7 @@
     },
     {
       "name": "Height",
-      "ioValue": 400,
-      "currentEquation": "400"
+      "ioValue": 400
     },
     {
       "name": "Pot_Diameter",
@@ -83,7 +82,12 @@
         }
       ],
       "tag": "Wood",
-      "tagIndex": 0
+      "tagIndex": 0,
+      "selectedTags": [
+        "Wood"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
     },
     {
       "atomType": "Gcode",
@@ -133,7 +137,12 @@
         }
       ],
       "tag": "One Plastic",
-      "tagIndex": 0
+      "tagIndex": 0,
+      "selectedTags": [
+        "One Plastic"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
     },
     {
       "atomType": "Export",
@@ -218,7 +227,7 @@
           "downwardFaceIndex": 20
         }
       ],
-      "orientationsForHashed": "58e47074"
+      "orientationsForHashed": "9ab36688"
     },
     {
       "atomType": "CutLayout",
@@ -622,7 +631,12 @@
             }
           ],
           "tag": "One Plastic",
-          "tagIndex": 0
+          "tagIndex": 0,
+          "selectedTags": [
+            "One Plastic"
+          ],
+          "includeUntagged": false,
+          "notKeepOut": false
         },
         {
           "atomType": "Rectangle",
@@ -2085,7 +2099,12 @@
             }
           ],
           "tag": "One Plastic",
-          "tagIndex": 0
+          "tagIndex": 0,
+          "selectedTags": [
+            "One Plastic"
+          ],
+          "includeUntagged": false,
+          "notKeepOut": false
         },
         {
           "atomType": "Move",
