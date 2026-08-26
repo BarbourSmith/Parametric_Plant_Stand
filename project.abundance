@@ -11,11 +11,13 @@
     },
     {
       "name": "Height",
-      "ioValue": 400
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "Pot_Diameter",
-      "ioValue": 175
+      "ioValue": 100,
+      "currentEquation": "100"
     }
   ],
   "topLevel": true,
@@ -227,7 +229,7 @@
           "downwardFaceIndex": 20
         }
       ],
-      "orientationsForHashed": "9ab36688"
+      "orientationsForHashed": 3
     },
     {
       "atomType": "CutLayout",
@@ -242,7 +244,8 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 2438
+          "ioValue": 2438,
+          "currentEquation": "2438"
         },
         {
           "name": "Sheet Height",
@@ -271,7 +274,7 @@
             "id": 2,
             "rotate": 120,
             "translate": {
-              "x": 500,
+              "x": 250,
               "y": 0
             }
           },
@@ -764,7 +767,7 @@
         },
         {
           "name": "Height",
-          "ioValue": 400
+          "ioValue": 300
         }
       ],
       "topLevel": false,
@@ -809,7 +812,7 @@
             },
             {
               "name": "text",
-              "ioValue": "400mm",
+              "ioValue": "300mm",
               "currentEquation": "Height"
             },
             {
@@ -825,7 +828,7 @@
               "ioValue": [
                 200,
                 0,
-                400
+                300
               ]
             },
             {
@@ -848,7 +851,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 400
+              "ioValue": 300
             }
           ],
           "currentEquation": "x + \"mm\""
@@ -870,7 +873,7 @@
             },
             {
               "name": "Z",
-              "ioValue": 400
+              "ioValue": 300
             }
           ],
           "topLevel": false,
@@ -924,7 +927,7 @@
                 },
                 {
                   "name": "Z",
-                  "ioValue": 400
+                  "ioValue": 300
                 }
               ],
               "interpreterVersion": 0,
@@ -1174,7 +1177,7 @@
       "ioValues": [
         {
           "name": "Pot_Diameter",
-          "ioValue": 175
+          "ioValue": 100
         }
       ],
       "topLevel": false,
@@ -1224,7 +1227,7 @@
           "ioValues": [
             {
               "name": "Pot_Diameter",
-              "ioValue": 175
+              "ioValue": 100
             }
           ],
           "topLevel": false,
@@ -1249,7 +1252,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 145
+                  "ioValue": 70
                 }
               ]
             },
@@ -1265,7 +1268,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 122.49999999999999
+                  "ioValue": 70
                 }
               ]
             },
@@ -1277,7 +1280,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 135
+                  "ioValue": 60
                 }
               ]
             },
@@ -1354,7 +1357,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ],
               "currentEquation": "D-30"
@@ -1368,7 +1371,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ],
               "currentEquation": "D-40"
@@ -1382,7 +1385,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ],
               "currentEquation": ".7*D"
@@ -1479,7 +1482,7 @@
           "ioValues": [
             {
               "name": "Pot_Diameter",
-              "ioValue": 175
+              "ioValue": 100
             }
           ],
           "topLevel": false,
@@ -1504,7 +1507,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ]
             },
@@ -1532,7 +1535,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 155
+                  "ioValue": 80
                 }
               ]
             },
@@ -1609,7 +1612,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ],
               "currentEquation": "D-20"
@@ -1876,11 +1879,11 @@
       "ioValues": [
         {
           "name": "Height",
-          "ioValue": 400
+          "ioValue": 300
         },
         {
           "name": "Pot_Diameter",
-          "ioValue": 175
+          "ioValue": 100
         },
         {
           "name": "Wood_Thickness",
@@ -2236,7 +2239,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 340
+              "ioValue": 240
             }
           ]
         },
@@ -2249,7 +2252,7 @@
           "ioValues": [
             {
               "name": "H",
-              "ioValue": 400
+              "ioValue": 300
             }
           ],
           "currentEquation": "H-60"
@@ -2279,7 +2282,7 @@
           "ioValues": [
             {
               "name": "Pot_Diameter",
-              "ioValue": 175
+              "ioValue": 100
             },
             {
               "name": "Wood_Thickness",
@@ -2287,7 +2290,7 @@
             },
             {
               "name": "Height",
-              "ioValue": 400
+              "ioValue": 300
             }
           ],
           "topLevel": false,
@@ -2380,7 +2383,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 116.66666666666667
+                  "ioValue": 66.66666666666667
                 },
                 {
                   "name": "zDist",
@@ -2410,7 +2413,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-move-circle-15-15-15-0-0-116.66666666666667-0",
+                    "geometry": "move-move-circle-15-15-15-0-0-66.66666666666667-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2479,7 +2482,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 400
+                  "ioValue": 300
                 },
                 {
                   "name": "yDist",
@@ -2540,7 +2543,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-move-circle-15-15-15-0-400-0-0",
+                    "geometry": "move-move-circle-15-15-15-0-300-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2579,7 +2582,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-400-0-0-50",
+                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-300-0-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2608,7 +2611,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-0-116.66666666666667-0-50",
+                    "geometry": "shrinkWrap-fuse-move-circle-15-15-15-0-move-move-circle-15-15-15-0-0-66.66666666666667-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2637,7 +2640,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-move-circle-15-15-15-0-400-0-0-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-50",
+                    "geometry": "shrinkWrap-fuse-move-move-circle-15-15-15-0-300-0-0-move-move-move-circle-15-15-15-0-300-0-0-0-50-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2666,7 +2669,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "shrinkWrap-fuse-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-move-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-15-0-0-50",
+                    "geometry": "shrinkWrap-fuse-move-move-move-circle-15-15-15-0-300-0-0-0-50-0-move-move-move-move-circle-15-15-15-0-300-0-0-0-50-0-15-0-0-50",
                     "dimension": "2D",
                     "tags": [],
                     "color": "#aad7f2",
@@ -2711,7 +2714,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 87.5
+                  "ioValue": 50
                 },
                 {
                   "name": "zDist",
@@ -2741,7 +2744,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0",
+                    "geometry": "move-move-move-circle-15-15-15-0-300-0-0-0-50-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2768,7 +2771,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-move-circle-15-15-15-0-400-0-0",
+                    "geometry": "move-move-circle-15-15-15-0-300-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2839,7 +2842,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ],
               "currentEquation": "D/2"
@@ -2866,7 +2869,7 @@
               "ioValues": [
                 {
                   "name": "D",
-                  "ioValue": 175
+                  "ioValue": 100
                 }
               ],
               "currentEquation": "D/1.5"
@@ -2917,7 +2920,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0-15-0-0",
+                    "geometry": "move-move-move-move-circle-15-15-15-0-300-0-0-0-50-0-15-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -2944,7 +2947,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-move-move-circle-15-15-15-0-400-0-0-0-87.5-0",
+                    "geometry": "move-move-move-circle-15-15-15-0-300-0-0-0-50-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -3123,7 +3126,7 @@
           "ioValues": [
             {
               "name": "Height",
-              "ioValue": 400
+              "ioValue": 300
             },
             {
               "name": "Wood_Thickness",
@@ -3161,7 +3164,7 @@
               "ioValues": [
                 {
                   "name": "H",
-                  "ioValue": 400
+                  "ioValue": 300
                 }
               ],
               "currentEquation": "H-30"
