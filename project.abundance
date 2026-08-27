@@ -11,13 +11,11 @@
     },
     {
       "name": "Height",
-      "ioValue": 300,
-      "currentEquation": "300"
+      "ioValue": 300
     },
     {
       "name": "Pot_Diameter",
-      "ioValue": 100,
-      "currentEquation": "100"
+      "ioValue": 100
     }
   ],
   "topLevel": true,
@@ -249,7 +247,8 @@
         },
         {
           "name": "Sheet Height",
-          "ioValue": 1219
+          "ioValue": 1219,
+          "currentEquation": "1219"
         },
         {
           "name": "Part Padding",
